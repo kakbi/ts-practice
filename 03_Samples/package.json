@@ -1,0 +1,14 @@
+{
+  "name": "typescript-fundamentals-lesson-3",
+  "version": "1.0.0",
+  "description": "TypeScript Fundamentals Урок 3. Generics",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -w"
+  },
+  "author": "ITVDN",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
