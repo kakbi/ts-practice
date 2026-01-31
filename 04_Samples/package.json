@@ -1,0 +1,15 @@
+{
+  "name": "typescript-fundamentals-lesson-4",
+  "version": "1.0.0",
+  "description": "TypeScript Fundamentals Урок 4. Модули и пространства имен",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -w",
+    "start": "lite-server"
+  },
+  "author": "ITVDN",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
