@@ -1,0 +1,14 @@
+{
+  "name": "typescript-fundamentals-lesson-1.3",
+  "version": "1.0.0",
+  "description": "TypeScript Fundamentals Заняття 1. Змінні та функції",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -w"
+  },
+  "author": "ITVDN",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
