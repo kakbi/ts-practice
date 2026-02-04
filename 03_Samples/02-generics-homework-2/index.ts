@@ -53,3 +53,18 @@ class UserService {
         return this.repo.getAll();
     }
 }
+
+async function main(): Promise<void> {
+    const userRepo = new UserRepository();
+    const userService = new UserService(userRepo);
+
+    await userService.register({
+        id: 1,
+        name: 'Vadim',
+        email: 'vadim@mail.com',
+    });
+
+    console.log(userService.getUsers());
+}
+
+main().catch(console.error);
