@@ -1,0 +1,14 @@
+{
+    "name": "ts-webpack-posts",
+    "scripts": {
+        "start": "webpack serve",
+        "build": "webpack"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0",
+        "webpack": "^5.0.0",
+        "webpack-cli": "^5.0.0",
+        "webpack-dev-server": "^4.0.0",
+        "ts-loader": "^9.0.0"
+    }
+}
